@@ -1,5 +1,11 @@
 ## Two functions used for inverting matrices
 
+#  Note that all of the logic is contained in the first function. Originally
+#  I implemented these similar to the example but I felt this way was simpler:
+#  I could eliminate the set/get functions for the inverse and cacheSolve
+#  itself is no longer really needed (except it was required for the 
+#  assignment.)
+
 ## Create and return a matrix capable of caching its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
