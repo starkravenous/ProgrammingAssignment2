@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 if (is.null(inverse)) {
                         # no inverse, calc it, store it
                         inverse <<- solve(x)
-                       }
+                }
                 inverse
         }
 
